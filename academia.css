@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('imagens/foto acesso.jg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background: linear-gradient(to right, #0099ff, #000000);
+}
+
+header {
+    background-color: #0099ff;background: linear-gradient(to right, #0099ff, #000000);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+article {
+    flex: 3;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #000000;
+    padding: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.137);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: #0099ff;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+p{
+    text-align: center;
+    color: #ffffff;
+}
+ 
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 0px solid #ffffff;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0099ff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 44px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0099ff;
+}
