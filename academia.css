@@ -98,3 +98,38 @@ button {
 button:hover {
     background-color: #0099ff;
 }
+.search-box{
+    background-color: #f4f4fc;
+    height: 15px;
+    width: 500px;
+    border-radius: 30px;
+    padding: 5px;
+    position: absolute;
+    left: 37%;
+    top:10%;
+}
+
+.search-btn{
+    position: relative;
+    float: right;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    background-color: goldenrod;
+}
+
+.search-txt{
+    background-color: #00ee3b;
+    color: #000000;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 12px;
+    transition: 0.4s;
+    width: 440px;
+}
